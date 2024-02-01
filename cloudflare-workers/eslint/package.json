@@ -1,0 +1,12 @@
+{
+  "name": "@dotfiles/eslint-config-cloudflare-workers",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ESLint config for Cloudflare Workers",
+  "main": "index.js",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.20.0",
+    "@typescript-eslint/parser": "^6.20.0",
+    "eslint-config-prettier": "^9.1.0"
+  }
+}
