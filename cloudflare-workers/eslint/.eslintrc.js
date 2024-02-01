@@ -6,7 +6,6 @@ module.exports = {
     browser: true,
     worker: true,
   },
-  root: true,
   extends: [
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended",
@@ -29,7 +28,6 @@ module.exports = {
   parserOptions: {
     ecmaVersion: "latest",
     sourceType: "module",
-    project: "tsconfig.json",
   },
   plugins: ["@typescript-eslint"],
   rules: {
