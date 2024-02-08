@@ -1,8 +1,0 @@
-{
-  "name": "@dotfiles/tsconfig-cloudflare-workers",
-  "version": "1.0.0",
-  "main": "tsconfig.json",
-  "dependencies": {
-    "@cloudflare/workers-types": "^4.20240129.0"
-  }
-}

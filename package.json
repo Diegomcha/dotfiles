@@ -1,0 +1,12 @@
+{
+	"name": "dotfiles",
+	"version": "1.0.0",
+	"private": true,
+	"prettier": "@dotfiles/prettier",
+	"scripts": {
+		"lint": "prettier -w ."
+	},
+	"dependencies": {
+		"@dotfiles/prettier": "workspace:prettier"
+	}
+}
